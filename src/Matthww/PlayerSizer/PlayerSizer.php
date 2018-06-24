@@ -17,12 +17,12 @@ class PlayerSizer extends PluginBase implements Listener {
 
     public function onEnable() {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getLogger()->notice("is enabled");
+        $this->getLogger()->notice("PlayerSizer By Mattheww Enabled!!!");
         SpoonDetector::printSpoon($this, 'spoon.txt');
     }
 
     public function onDisable() {
-        $this->getLogger()->notice("is disabled!");
+        $this->getLogger()->notice("PlayerSizer By Mattheww Is Disabled!!!");
     }
 
     public function onCommand(CommandSender $sender, Command $command, $label, array $args) {
